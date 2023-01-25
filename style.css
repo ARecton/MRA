@@ -42,7 +42,7 @@ header {
 }
 header  .logo a {
     font-size: 25px;
-    color: #29d9d5;
+    color: #B59970;
 
 }
 header  .logo a span {
@@ -61,15 +61,15 @@ header  .logo a span {
     font-size: 14px;
 }
 .btn-reservation {
-    color: #29d9d5;
+    color: #B59970;
     font-size: 14px;
-    border: 2px solid #29d9d5;
+    border: 2px solid #B59970;
     padding: 5px 20px;
     transition: 0.5s;
     font-weight: bolder;
 }
 .btn-reservation:hover {
-    background-color: #29d9d5;
+    background-color: #B59970;
     color: #fff;
 
 }
@@ -135,7 +135,7 @@ header  .logo a span {
 .find_trip form input {
     padding: 5px 20px;
     background-color: transparent;
-    border: 1px solid #29d9d5;
+    border: 1px solid #B59970;
     outline: 0;
     width: 100%;
     font-size: 13px;
@@ -145,12 +145,12 @@ header  .logo a span {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #29d9d5;
+    color: #B59970;
     cursor: pointer;
     transition: 0.5s;
 }
 .find_trip form input[type="submit"]:hover {
-    box-shadow: 0 0 10px #29d9d5;
+    box-shadow: 0 0 10px #B59970;
 }
 
 /*A propos CSS*/
@@ -164,7 +164,7 @@ header  .logo a span {
     text-transform: capitalize;
     margin: 70px 0;
     font-weight: bold;
-    color: #29d9d5;
+    color: #B59970;
     position: relative;
     margin-left:15px;
     font-size: 18px;
@@ -199,7 +199,7 @@ header  .logo a span {
     width: 100%;
     height: 100%;
     position: relative;
-    box-shadow: 0 0 10px #29d9d5;
+    box-shadow: 0 0 10px #B59970;
 }
 .img-desc .left::after {
     position: absolute;
@@ -207,7 +207,7 @@ header  .logo a span {
     right: 10px;
     content: "";
     height: 100%;
-    background-color: #29d9d5;
+    background-color: #B59970;
     width: 100%;
     z-index: -1;
 }
@@ -223,8 +223,8 @@ header  .logo a span {
     margin-bottom: 36px;
 }
 .img-desc .right a {
-    border: 1px solid #29d9d5;
-    color: #29d9d5;
+    border: 1px solid #B59970;
+    color: #B59970;
     font-size: 14px;
     padding: 8px 25px;
     font-weight: bold;
@@ -277,12 +277,12 @@ header  .logo a span {
 .box .content a {
     margin-top: 60px;
     padding: 10px 60px;
-    border: 2px solid #29d9d5;
+    border: 2px solid #B59970;
     color: #29d9d5;
     font-weight: bold;
 }
 .box:hover {
-    box-shadow: 0 0 10px #29d9d5;
+    box-shadow: 0 0 10px #B59970;
 }
 .box:hover .content {
     transform: translateX(0);
@@ -331,7 +331,7 @@ textarea {
     padding: 10px;
 }
 #contact form input:focus , textarea:focus {
-    border: 1px solid #29d9d5;
+    border: 1px solid #B59970;
 }
 iframe {
     height: 150px;
@@ -358,10 +358,13 @@ footer {
     text-align: center;
 }
 footer p {
-    color: #fff;
+  color: #B59970;
+  display: inline-flex;
+  white-space: pre-line;
+  text-align: left;;
 }
 footer p span {
-    color: #29d9d5;
+    color: #B59970;
 }
 .responsive-menu {
     display: none;
@@ -437,21 +440,21 @@ footer p span {
         position: absolute;
         content: "";
         height: 3px;
-        background-color: #29d9d5;
+        background-color: #B59970;
         width: 28px;
-        box-shadow: 0 10px 0 #29d9d5;
+        box-shadow: 0 10px 0 #B59970;
         transform: translateY(-10px);
         transition: 0.5s;
     }
     .responsive-menu.active::after {
-        box-shadow: 0 0 0 #29d9d5;
+        box-shadow: 0 0 0 #B59970;
         transform: rotate(45deg);
     }
     .responsive-menu::before {
         position: absolute;
         content: "";
         height: 3px;
-        background-color: #29d9d5;
+        background-color: #B59970;
         width: 28px;
         transform: translateY(10px);
         transition: 0.5s;
