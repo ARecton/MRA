@@ -109,49 +109,7 @@ header  .logo a span {
     margin-bottom: 20px;
 }
 
-.find_trip {
-    background-color: #222;
-    padding: 20px;
-    width: 70%;
-    position: absolute;
-    bottom: -50px;
-}
-.find_trip form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-}
-.find_trip form div , .find_trip form input[type="submit"]{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
-.find_trip form label {
-    color: #999;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-.find_trip form input {
-    padding: 5px 20px;
-    background-color: transparent;
-    border: 1px solid #B59970;
-    outline: 0;
-    width: 100%;
-    font-size: 13px;
-    color: #fff;
-}
-.find_trip form input[type="submit"] {
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #B59970;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.find_trip form input[type="submit"]:hover {
-    box-shadow: 0 0 10px #B59970;
-}
+
 
 /*A propos CSS*/
 #a-propos {
