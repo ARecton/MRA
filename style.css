@@ -21,6 +21,9 @@ html {
 }
 body {
     background-color: #111;
+    background-color:white;
+
+
 }
 section {
     margin-top: 50px;
@@ -77,7 +80,7 @@ header  .logo a span {
 /* Home acceuil CSS */
 
 #home {
-    background: linear-gradient(rgba(0,0,0,0.1),#333), url("images/img1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1),#333), url("images/image_de_fond.png");
     background-position: center;
     background-size: cover;
     height: 100vh;
