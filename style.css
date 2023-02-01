@@ -27,7 +27,7 @@ section {
     margin-top: 50px;
 }
 
-header {
+.navbar {
     background-color: #222;
     position: fixed;
     top: 0;
@@ -41,23 +41,29 @@ header {
     padding: 0 5%;
 
 }
-header  .logo a {
+.navbar  .logo a {
     font-size: 25px;
     color: #B59970;
 
 }
-header  .logo a span {
+.navbar  .logo a span {
     color: #fff;
 }
 .menu {
     display: flex;
     align-items: center;
-}
-.menu li  {
+    justify-content: space-between;
     margin: 0 15px;
-    list-style-type: none;
 }
-.menu li a {
+
+.butt{
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
     color: #fff;
     font-size: 14px;
 }
@@ -382,7 +388,7 @@ span {
 
 /*Responsive*/
 @media (max-width:750px) {
-    header .menu {
+    .navbar .menu {
         display: none;
     }
     .btn-reservation {
@@ -473,7 +479,7 @@ span {
     .responsive-menu.active::before {
         transform: rotate(-45deg);
     }
-    header .menu.responsive {
+    .navbar .menu.responsive {
         display: flex;
         position: absolute;
         top: 50px;
@@ -483,7 +489,7 @@ span {
         align-items: unset;
         animation: animate-menu 1s forwards;
     }
-    header .menu.responsive li {
+    .navbar .menu.responsive li {
         margin: 20px;
         width: 100px;
         padding-left: 20px;
@@ -497,9 +503,4 @@ span {
             transform: translateY(100%);
         }
     }
-}
-
-
-.logo{
-  width: 100%;
 }
