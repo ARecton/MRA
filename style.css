@@ -105,12 +105,12 @@ section {
     font-size: 50px;
     color: #fff;
     margin-bottom: 10px;
-    text-transform: capitalize;
+
 }
 #home p {
     color: #fff;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 20px;
 }
 .home-btn {
     margin-bottom: 20px;
@@ -157,6 +157,7 @@ section {
 }
 .img-desc .right {
     width: 57%;
+
 }
 
 .img-desc .left video {
@@ -177,7 +178,7 @@ section {
 }
 .img-desc .right h3 {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
 
 }
@@ -316,12 +317,29 @@ footer p span {
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
 h2 {
   margin: 10px 0;
   padding-bottom: 10px;
   width: 180px;
   color: #78788c;
   border-bottom: 3px solid #78788c;
+}
+
+h3 {
+  font-size: 30px;
 }
 input {
   width: 100%;
