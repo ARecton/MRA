@@ -50,9 +50,25 @@
               <div class="right">
                   <h3>Conseil en investissement financier et gestion de patrimoine.</h3>
                   <p>Depuis 1991, Marc Recton & Associés conseille ses clients à Paris et dans la région d'Aix-en-Provence pour leurs placements financiers ainsi que dans l'élaboration et la mise en oeuvre de leur stratégie patrimoniale et fiscale.</p>
-                <div class="Lire">
-                <a href="Lire plus">Lire plus</a>
-                </div>
+                  <button type="button" class="lire">Lire plus</button>
+                  <div class="content">
+                    <h1>Nos prestations<h1>
+
+                      <p>en mettant à votre disposition des solutions constituant le socle des patrimoines privés (assurance vie, SCPI, PEA, OPCVM, Epargne Retraite / Entreprise, Immobilier d'investissement, ….), nous sommes en "chasse" permanente pour identifier les innovations financières les plus pointues :</p>
+                    <ul></ul>
+                      <li>Clubs Deals immobiliers</li>
+                      <li>Conseil en gestion de portefeuille</li>
+                      <li>Défiscalisation IR (Girardin, FCPI / FIP, ...)</li>
+                      <li>Produits structurés</li>
+                      <li>Assurance vie : France et Luxembourg</li>
+                      <li>Gestion de trésorerie pour personnes morales et particuliers</li>
+                    </ul>
+                      <p>Notre clientèle, construite uniquement par cooptation de clients et par un travail en inter-professionnalité avec d’autres spécialistes du Conseil, est constituée de dirigeants d’entreprise en activité ou en retraite, ainsi que de particuliers détenteurs de patrimoines significatifs ou complexes.</p>
+
+                      <p> Un interlocuteur unique, une organisation plurielle</p>
+                      <p>Nous avons développé en interne et en externe un ensemble d’expertises en ingénierie patrimoniale, conseil en investissement financier, courtage en assurance, conseil en immobilier, … nous permettant aujourd’hui de traiter tout type de situations familiales et patrimoniales.</p>
+                    </p>
+                  </div>
               </div>
           </div>
 
@@ -304,6 +320,22 @@
     }
       </script>
 
+<script>
+  var coll = document.getElementsByClassName("lire");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 
 
 

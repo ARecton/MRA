@@ -190,7 +190,7 @@ section {
 
 }
 .img-desc .right p {
-    color: #999;
+    color: #B59970;
     font: 14px;
     margin-bottom: 36px;
 }
@@ -333,7 +333,7 @@ iframe {
 
 
 .content {
-
+  color: white;
   padding: 0 18px;
   display: none;
   overflow: hidden;
@@ -611,4 +611,9 @@ span {
 img{
   height: 75px;
   border-radius: 9px;
+}
+
+video{
+
+  object-fit: inherit;
 }
