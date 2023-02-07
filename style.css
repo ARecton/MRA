@@ -22,9 +22,11 @@ html {
 }
 body {
     background-color: #111;
+
 }
 section {
     margin-top: 50px;
+    padding: 0 10%;
 }
 
 .navbar {
@@ -54,6 +56,7 @@ section {
     align-items: center;
     justify-content: space-between;
     margin: 0 15px;
+
 }
 
 .butt{
@@ -61,11 +64,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .menu a {
     color: #fff;
     font-size: 14px;
+
 }
 .btn-reservation {
     color: #B59970;
@@ -80,6 +85,8 @@ section {
     color: #fff;
 
 }
+
+
 
 /* Home acceuil CSS */
 
@@ -255,6 +262,10 @@ section {
 
 /* Contact CSS */
 
+#contact {
+  padding: 0 10%;
+  margin-bottom: 50px;
+}
 
 textarea {
     height: 150px;
@@ -283,8 +294,60 @@ iframe {
     letter-spacing: 1px;
 }
 
+#Mentions{
+  display: flex;
+  flex-direction: column;
+}
+
+.Mentions {
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.button{
+  margin-bottom: 23vh;
+  float: right;
+  width: 20vw;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover{
+  background: #78788c;
+  color: #fff;
+}
+
+
+.content {
+
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+
+
 footer {
+    height: 25vh;
     width: 100%;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #222;
     padding: 10px 0;
     font-size: 14px;
@@ -302,6 +365,20 @@ footer p span {
 .responsive-menu {
     display: none;
 }
+
+.adress {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  width: 100%;
+}
+
+#col {
+  margin: 1vw;
+  width: 15vw;
+  justify-content: center;
+}
+
 
 
 .form {
@@ -364,6 +441,8 @@ p:before {
   color: #5a5a5a;
 }
 button {
+
+  margin-bottom: 23vh;
   float: right;
   padding: 8px 12px;
   margin: 8px 0 0;
@@ -377,6 +456,12 @@ button {
 button:hover {
   background: #78788c;
   color: #fff;
+}
+
+.butt:hover {
+  background: #B59970;
+  color: #fff;
+  transition: 0.5s;
 }
 
 span {
@@ -521,4 +606,9 @@ span {
             transform: translateY(100%);
         }
     }
+}
+
+img{
+  height: 75px;
+  border-radius: 9px;
 }
