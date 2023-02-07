@@ -383,7 +383,7 @@ footer p span {
 
 .form {
   width: 340px;
-  height: 440px;
+  height: 160px;
   background: #e6e6e6;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
@@ -609,7 +609,7 @@ span {
 }
 
 img{
-  height: 100px;
+  height: 150px;
   border-radius: 9px;
 }
 
