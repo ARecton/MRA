@@ -39,7 +39,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    height: 110px;
     padding: 0 5%;
 
 }
@@ -609,7 +609,7 @@ span {
 }
 
 img{
-  height: 75px;
+  height: 100px;
   border-radius: 9px;
 }
 
