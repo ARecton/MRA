@@ -68,9 +68,10 @@ section {
 }
 
 .menu a {
-    color: #fff;
-    font-size: 14px;
-
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 400;
 }
 .btn-reservation {
     color: #B59970;
@@ -318,18 +319,20 @@ iframe {
   width: 20vw;
   padding: 8px 12px;
   margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #78788c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
   background: 0;
-  color: #5a5a6e;
+  color: #B59970;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .button:hover{
-  background: #78788c;
+  background: #B59970;
   color: #fff;
 }
+
 
 
 .content {
@@ -441,20 +444,23 @@ p:before {
   color: #5a5a5a;
 }
 button {
-
+  text-align: end;
   margin-bottom: 23vh;
   float: right;
+  width: 20vw;
   padding: 8px 12px;
   margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #78788c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
   background: 0;
-  color: #5a5a6e;
+  color: #B59970;
   cursor: pointer;
   transition: all 0.3s;
+  border: none;
 }
 button:hover {
-  background: #78788c;
+
   color: #fff;
 }
 
