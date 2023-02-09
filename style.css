@@ -631,6 +631,7 @@ video{
 
 .portfolio {
   background: #111;
+  border-radius: 9px;
 }
 
 .portfolio .grid__item {
