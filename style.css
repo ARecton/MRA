@@ -630,7 +630,7 @@ video{
 /*css actu*/
 
 .portfolio {
-  background: #d4a1e5;
+  background: #111;;
 }
 
 .portfolio .grid__item {
@@ -754,8 +754,9 @@ video{
   text-transform: uppercase;
   position: relative;
   box-shadow: 0 0 7px rgba(0,0,0,0.1);
-  border: 1px solid #EEE;
+  border: 1px solid #111;
    overflow: hidden;
+   border-radius: 3%;
 }
 
 .card__inner {
@@ -792,6 +793,7 @@ video{
 .card:hover .card__overlay {
   top:0;
 }
+
 
 
 .grid {
