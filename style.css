@@ -119,6 +119,7 @@ section {
     color: #fff;
     margin-bottom: 10px;
     font-size: 20px;
+    text-align: center;
 }
 .home-btn {
     margin-bottom: 20px;
@@ -329,6 +330,7 @@ iframe {
   color: #B59970;
   cursor: pointer;
   transition: all 0.3s;
+  text-align: center;
 }
 
 .button:hover{
