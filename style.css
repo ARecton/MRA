@@ -693,7 +693,7 @@ video{
   transform: scale(1);
   width: 100%;
   height: 100%;
-  top:0;
+  top:110px;
   left:0;
   opacity: 1;
   visibility:visible;
@@ -721,12 +721,12 @@ video{
 .modal__close {
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: -1rem;
   background: none;
-  border: 1px solid #eee;
+
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+
   font-size: 3.1rem;
   color: #666;
   cursor: pointer;
