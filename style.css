@@ -414,6 +414,7 @@ p {
 
 li {
   font-size: 20px;
+  list-style: none;
 }
 
 h1 {
@@ -642,7 +643,9 @@ video{
 .portfolio {
   background: #111;
   border-radius: 9px;
+  width: fit-content;
 }
+
 
 .portfolio .grid__item {
   max-width: 50%;
@@ -700,7 +703,7 @@ video{
 }
 
 .modal__content {
-  background-color: #fefefe;
+  background-color: #111;
   height: 100vh;
   padding: 5rem 1rem;
   overflow: auto;
