@@ -370,6 +370,11 @@ footer p {
 footer p span {
     color: #B59970;
 }
+
+.minia{
+  height: fit-content;
+}
+
 .responsive-menu {
     display: none;
 }
@@ -449,7 +454,7 @@ p:before {
   color: #5a5a5a;
 }
 button {
-  text-align: end;
+
   margin-bottom: 23vh;
   float: right;
   width: 20vw;
@@ -464,6 +469,9 @@ button {
   transition: all 0.3s;
   border: none;
 }
+
+
+
 button:hover {
 
   color: #fff;
@@ -701,6 +709,9 @@ video{
 
 .modal img {
   margin-bottom: 2rem;
+
+  width: 100%;
+  height:auto;
 }
 
 .modal__title {
@@ -804,11 +815,16 @@ video{
   flex-wrap: wrap;
 }
 
+.h5.h3{
+  font-size: 25px;
+}
+
 .grid__item {
   flex-grow: 1;
   flex-shrink: 0;
   width: 100%;
   padding:1rem;
+  justify-content: center;
 }
 
 @media screen and (min-width:750px) {
