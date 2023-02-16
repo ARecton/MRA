@@ -71,7 +71,7 @@ section {
   color: #fff;
   font-size: 20px;
   font-family: 'Raleway';
-  font-weight: 400;
+  font-weight: 600;
 }
 .btn-reservation {
     color: #B59970;
@@ -256,6 +256,7 @@ section {
     padding: 10px 60px;
     color: #B59970;
     font-weight: bold;
+    font-size: 20px;
 }
 .box:hover {
     box-shadow: 0 0 10px #B59970;
