@@ -220,7 +220,7 @@ section {
 #popular-destination .content .box {
     overflow: hidden;
     position: relative;
-    height: 250px;
+    height: 270px;
     transition: 0.5s;
 }
 #popular-destination .content .box img {
@@ -254,8 +254,7 @@ section {
 .box .content a {
     margin-top: 60px;
     padding: 10px 60px;
-    border: 2px solid #B59970;
-    color: #29d9d5;
+    color: #B59970;
     font-weight: bold;
 }
 .box:hover {
