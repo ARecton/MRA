@@ -31,7 +31,7 @@
           <a href="https://connect.manymore.fr/login" class="btn-reservation">Accès Privé</a>
         </div>
 
-
+        <div class="responsive-menu"></div>
 
       </div>
       <!-- acceuil section -->
@@ -40,7 +40,7 @@
           <h4>un associé pour vos affaires patrimoniales</h4>
           <p>Pourquoi travailler avec Marc RECTON & Associés ?</p>
           <p>Parce qu'aucun banquier privé ne vous offrira jamais notre implication, notre disponibilité et notre libre arbitre. Travailler avec Marc Recton & Associés c’est disposer des compétences des meilleurs spécialistes sous l’égide d’un interlocuteur de confiance unique qui coordonne des experts triés sur le volet.</p>
-          <button><a href="mailto:contact@recton.com">Contactez Nous</a></button>
+          <button><a href="mailto:contact@recton.com">Nous Contacter</a></button>
       </section>
 
       <!-- A propos section -->
@@ -80,75 +80,468 @@
       <!-- section opération -->
       <section id="popular-destination">
           <h1 class="title">Nos solutions "signature"</h1>
-          <div class="content">
-              <!-- box -->
-              <div class="box">
-                  <img src="images/photo club deal 1.jpg" alt="">
-                  <div class="content">
-                      <div>
-                          <h4>Clubs Deal Immobiliers et Private Equity</h4>
-                          <p>Depuis près de 20 ans, par le biais de fonds spécialisés ou de clubs deals réunissant de petits groupes d’investisseurs, nous avons développé notre propre expertise. Nous mettons en relation des investisseurs privés désireux de diversifier intelligemment leurs actifs et des entreprises cherchant à étoffer leurs fonds propres..</p>
-                          <br>
-                          <a href="#">Lire Plus</a>
-                      </div>
-                  </div>
+          <div class="grid">
+            <div class="grid__item">
+              <div class="card" data-category="web">
+                <img src="images/p.jpeg" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">Nouvel échange de prisonniers entre la Russie et l'Ukraine</h3>
+                  <p class="category">Actu</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-1">+</a>
+                </div>
               </div>
-              <!-- box -->
-              <!-- box -->
-              <div class="box">
-                  <img src="images/clubdeal2.jpg" alt="">
-                  <div class="content">
-                      <div>
-                          <h4>Produits structurés</h4>
-                          <p>Un produit structuré est un instrument financier qui, en contrepartie d'un risque en capital et d'une limitation des gains en cas d'envolée des marchés financiers, vise des performances de 5% à 15%..</p>
-                          <br>
-                          <a href="#">Lire Plus</a>
+              <div class="modal" id="modal-1">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="images/p.jpeg" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="images/ukraine1.jpg" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
                       </div>
-                  </div>
-              </div>
-              <!-- box -->
-              <!-- box -->
-              <div class="box">
-                  <img src="images/miami.jpg" alt="">
-                  <div class="content">
-                      <div>
-                          <h4>Produits de trésorerie pour personnes morales</h4>
-                          <p>De la création sur-mesure de produits structurés avec protection de capital, à la souscription de contrats de capitalisation à capital garanti, en passant par le recours à des OPCVM adaptés aux problématiques de trésorerie, toute une palette de solutions performantes sont à la disposition de nos clients dirigeants.</p>
-                          <br>
-                          <a href="#">Lire Plus</a>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">Nouvel échange de prisonniers entre la Russie et l'Ukraine</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>REUTERS•16/02/2023 à 18:30</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Actu & Éco
+                        </p>
+                        <p>
+                          MOSCOU (Reuters) - Le ministère russe de la Défense a annoncé jeudi que l'Ukraine avait rendu 101 prisonniers de guerre qui étaient détenus dans des territoires contrôlés par Kyiv, un nouvel échange qui intervient à l'approche du premier anniversaire de la guerre.
+                        </p>
+                        <br>
+                        <h1 class="h3">Informations</h1>
+                        <br>
+                        <p>
+                          Dans un communiqué, le ministère a indiqué que l'aviation russe allait transporter ces soldats à Moscou afin qu'ils y reçoivent des soins dans des institutions médicales du ministère.</p>
+
+                          <p> A Kyiv, le secrétaire général de la présidence ukrainienne, Andriy Yermak, a lui déclaré que 100 soldats et un civil ukrainiens avaient été rendus au pays.</p>
+
+                          <p> Presque tous ces prisonniers avaient défendu la ville de Marioupol, dans le sud du pays, face au siège de l'armée russe, laquelle est finalement parvenue à en prendre le contrôle, a-t-il ajouté via la messagerie Telegram.</p>
+
+                          <p> Depuis le lancement de l'offensive russe le 24 février 2022, l'Ukraine a obtenu la libération de 1.762 hommes et femmes détenus par la Russie, selon une annonce du président ukrainien Volodimir Zelensky effectuée plus tôt ce mois-ci.</p>
+
+                          <p> (Reportage Vladimir Soldatkin, avec Dan Peleschuk; version française Jean Terzian, édité par Matthieu Protard)</p>
+
+                        <br>
+                        <h1 class="h3">Sources</h1>
+                        <br>
+                        <p>
+                          <a href="https://www.boursorama.com/actualite-economique/actualites/nouvel-echange-de-prisonniers-entre-la-russie-et-l-ukraine-b271dff3db9c262df8bf8cb70329473f">https://www.boursorama.com/actualite-economique/actualites/nouvel-echange-de-prisonniers-entre-la-russie-et-l-ukraine-b271dff3db9c262df8bf8cb70329473f</a></p>
+
+
                       </div>
+                    </div>
                   </div>
+                </div>
               </div>
-              <!-- box -->
-              <!-- box -->
-              <div class="box">
-                  <img src="images/rome.jpg" alt="">
-                  <div class="content">
-                      <div>
-                          <h4>Défiscalisation "Girardin"</h4>
-                          <p>Le principe de la loi Girardin repose sur un mécanisme d'incitation fiscale à l'investissement productif Outre Mer.
-                            Acteur depuis 25 ans de ce marché en tant que monteur, puis distributeur, nous sommes particulièrement bien introduits pour obtenir les meilleures solutions pour nos clients.</p>
-                          <br>
-                            <a href="#">Lire Plus</a>
+            </div>
+            <div class="grid__item">
+              <div class="card" data-category="design">
+                <img src="images/bourse.jpeg" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">
+
+                    2023 démarre en trombe, les gérants de fonds retrouvent-ils le goût du risque ?</h3>
+                  <p class="category">Actu</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-2">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-2">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="images/360_F_29837660_iMgBBa7rCbIQEtsOM1FQUoLZwjW6aP28.jpg" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="images/bourse2.jpeg" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
                       </div>
-                  </div>
-              </div>
-              <!-- box -->
-              <!-- box -->
-              <div class="box">
-                  <img src="images/Luxembourg.jpg" alt="">
-                  <div class="content">
-                      <div>
-                          <h4>Assurance vie haut de gamme luxembourg</h4>
-                          <p>Le Luxembourg, par son environnement juridique unique en Europe, devient pour les patrimoines privés significatifs un outil patrimonial incontournable.
-                            Le réglementation française n’est en effet pas applicable aux compagnies d’assurance-vie établies au Luxembourg, dont l’autorité de surveillance est le CAA (Commissariat aux Assurances).</p>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">
+
+                          2023 démarre en trombe, les gérants de fonds retrouvent-ils le goût du risque ?</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>H24 FINANCE POUR BOURSORAMA•17/02/2023 à 10:11</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Actu Economie
+                        </p>
+                        <p>
+                          On peut dire que nous avons assisté à un début d'année en fanfare. Le marché a résolument pris le parti de l'optimisme : une anticipation de l'inflation qui retomberait à 2% d'ici 12 mois, une récession évitée, une anticipation de la baisse des taux directeurs de la Fed sur le second semestre...
+                        </p>
+                        <br>
+                        <h1 class="h3">Les marchés ont clairement apprécié le mois de janvier !</h1>
+                        <br>
+                        <p>
+                          Les investisseurs se sont donc repositionnés sur les actifs risqués. La reprise économique chinoise et l'amélioration de la confiance des consommateurs, notamment en Europe, ont conforté la tendance haussière en janvier.
+                        </p>
+                        <p>En Europe, c'est le secteur consommation discrétionnaire (i.e. consommation cyclique) qui a le plus rebondi avec une performance mensuelle de +14,51%, suivi par le secteur de la technologie de l'information avec +13,79%. La Chine poursuit également son redressement avec un bond de +11,78%. Aux États-Unis, le Nasdaq 100 profite lui aussi de la bonne tenue des marchés en augmentant de +10,62%.</p>
+                        <p>Sur le marché obligataire, l'optimisme a provoqué une baisse des taux et une réduction des spreads de crédit confortant la bonne tenue des obligations d'entreprises.</p>
+                        <br>
+                        <h1 class="h3">Sources</h1>
                           <br>
-                            <a href="#">Lire Plus</a>
+                        <p><a href="https://www.boursorama.com/bourse/actualites/2023-demarre-en-trombe-les-gerants-de-fonds-retrouvent-ils-le-gout-du-risque-12c2cd7dcb33dc07f9fe407a279c99f3">https://www.boursorama.com/bourse/actualites/2023-demarre-en-trombe-les-gerants-de-fonds-retrouvent-ils-le-gout-du-risque-12c2cd7dcb33dc07f9fe407a279c99f3</a></p>
                       </div>
+                    </div>
                   </div>
+                </div>
               </div>
-              <!-- box -->
-          </div>
+            </div>
+            <div class="grid__item">
+              <div class="card" data-category="app">
+                <img src="https://picsum.photos/600/400?random=3" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">Titre du projet</h3>
+                  <p class="category">Applications</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-3">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-3">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                      </div>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">Titre de la modal 3</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>Année : 2019</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Refonte graphique
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Informations</h1>
+                        <br>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Sources</h1>
+                        <br>
+                        <ul>
+                          <li>HTML, CSS</li>
+                          <li>Javascript</li>
+                          <li>React</li>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="card" data-category="web">
+                <img src="https://picsum.photos/600/400?random=4" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">Titre de l'article</h3>
+                  <p class="category">Actu</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-4">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-4">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                      </div>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">Titre de la modal 4</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>Année : 2019</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Refonte graphique
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Informations</h1>
+                        <br>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Sources</h1>
+                        <br>
+                        <ul>
+                          <li>HTML, CSS</li>
+                          <li>Javascript</li>
+                          <li>React</li>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="card" data-category="design">
+                <img src="https://picsum.photos/600/400?random=5" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">Titre de l'article</h3>
+                  <p class="category">Actu</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-5">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-5">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                      </div>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">Titre de la modal 5</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>Année : 2019</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Refonte graphique
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Informations</h1>
+                        <br>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Sources</h1>
+                        <br>
+                        <ul>
+                          <li>HTML, CSS</li>
+                          <li>Javascript</li>
+                          <li>React</li>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="card" data-category="app">
+                <img src="https://picsum.photos/600/400?random=3" loading="lazy" width="365" height="243"
+                  alt="projet de la ville" class="card__image">
+                <div class="card__inner">
+                  <h3 class="card__title">Titre de l'article</h3>
+                  <p class="category">Actu</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-6">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-6">
+                <button class="modal__close">&times;</button>
+
+                <div class="modal__content">
+
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                        <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                          class="card__image" alt="Projet site de la ville de lyon" />
+                      </div>
+                      <div class="grid__item">
+                        <h1 class="modal__title h2">Titre de la modal 6</h1>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>Date de publication : 2019</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Actu
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Informations</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Quaerat accusantium laborum aliquam enim. Vero
+                          voluptate, animi, sint vel mollitia ut odio, eius quis
+                          expedita quo at! Dignissimos ipsum odit dolores!
+                        </p>
+                        <br>
+                        <h1 class="h3">Sources</h1>
+                        <br>
+                        <ul>
+                          <li>HTML, CSS</li>
+                          <li>Javascript</li>
+                          <li>React</li>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
       </section>
 
       <!--  Actualités section -->
