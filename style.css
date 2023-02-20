@@ -69,7 +69,7 @@ section {
 
 .menu a {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Raleway';
   font-weight: 600;
 }
@@ -510,12 +510,97 @@ span {
 
 
 /*Responsive*/
+@media (max-width:1080px) {
+  .img-desc {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+
+}
+
+@media (max-width:1109px) {
+  .navbar {
+    position: relative;
+  }
+
+  .btn-reservation {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+  }
+
+  .navbar .menu {
+    display: none;
+}
+   /*Responsive menu*/
+   .responsive-menu {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+  .responsive-menu::after {
+      position: absolute;
+      content: "";
+      height: 3px;
+      background-color: #B59970;
+      width: 28px;
+      box-shadow: 0 10px 0 #B59970;
+      transform: translateY(-10px);
+      transition: 0.5s;
+  }
+  .responsive-menu.active::after {
+      box-shadow: 0 0 0 #B59970;
+      transform: rotate(45deg);
+  }
+  .responsive-menu::before {
+      position: absolute;
+      content: "";
+      height: 3px;
+      background-color: #B59970;
+      width: 28px;
+      transform: translateY(10px);
+      transition: 0.5s;
+  }
+  .responsive-menu.active::before {
+      transform: rotate(-45deg);
+  }
+  .navbar .menu.responsive {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      flex-direction: column;
+      background-color: #222;
+      align-items: unset;
+      animation: animate-menu 1s forwards;
+  }
+  .navbar .menu.responsive li {
+      margin: 20px;
+      width: 100px;
+      padding-left: 20px;
+  }
+
+  @keyframes animate-menu {
+      0% {
+          transform: translateY(0);
+      }
+      100% {
+          transform: translateY(100%);
+      }
+  }
+}
+
 @media (max-width:750px) {
-    .navbar .menu {
-        display: none;
-    }
+
     .btn-reservation {
-        display: none;
+
+        position: absolute;
+        right: 100px;
+        top: 40px;
     }
     /*Home responsive*/
     #home h2 {
@@ -530,24 +615,8 @@ span {
         text-align: center;
         font-size: 10px;
     }
-    .find_trip {
-        width: 100%;
-        height: 200px;
-    }
-    .find_trip form {
-        flex-wrap: wrap;
-    }
-    .find_trip form div {
-        margin-top: 10px;
-        flex-direction: column;
-        width: 47%;
-    }
-    .find_trip form input[type="submit"]{
-        width: 47%;
-    }
-    .home-btn {
-        display:block;
-    }
+
+
     /*Responsive A propos*/
     .img-desc {
         flex-direction: column;
@@ -566,67 +635,13 @@ span {
         margin-bottom: 20px;
     }
 
-    /*Responsive menu*/
-    .responsive-menu {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        cursor: pointer;
-    }
-    .responsive-menu::after {
-        position: absolute;
-        content: "";
-        height: 3px;
-        background-color: #B59970;
-        width: 28px;
-        box-shadow: 0 10px 0 #B59970;
-        transform: translateY(-10px);
-        transition: 0.5s;
-    }
-    .responsive-menu.active::after {
-        box-shadow: 0 0 0 #B59970;
-        transform: rotate(45deg);
-    }
-    .responsive-menu::before {
-        position: absolute;
-        content: "";
-        height: 3px;
-        background-color: #B59970;
-        width: 28px;
-        transform: translateY(10px);
-        transition: 0.5s;
-    }
-    .responsive-menu.active::before {
-        transform: rotate(-45deg);
-    }
-    .navbar .menu.responsive {
-        display: flex;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        flex-direction: column;
-        background-color: #222;
-        align-items: unset;
-        animation: animate-menu 1s forwards;
-    }
-    .navbar .menu.responsive li {
-        margin: 20px;
-        width: 100px;
-        padding-left: 20px;
-    }
 
-    @keyframes animate-menu {
-        0% {
-            transform: translateY(0);
-        }
-        100% {
-            transform: translateY(100%);
-        }
-    }
 }
+
+@media (max-width:485px) {
+
+}
+
 
 img{
   height: 150px;
