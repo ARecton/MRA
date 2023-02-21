@@ -414,7 +414,7 @@ p {
 
 li {
   font-size: 20px;
-  list-style: none;
+
 }
 
 h1 {
@@ -645,6 +645,10 @@ span {
 img{
   height: 150px;
   border-radius: 9px;
+}
+
+img.log{
+  height: 150px;
 }
 
 video{
