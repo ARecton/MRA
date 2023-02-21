@@ -21,8 +21,7 @@ html {
     background-color: #ccc;
 }
 body {
-    background-color: #111;
-
+  background-image: linear-gradient(to bottom, #111111, #151515, #181818, #1b1b1b, #1e1e1e, #222222, #262626, #2a2a2a, #303030, #373737, #3d3d3d, #444444);
 }
 section {
 
@@ -656,7 +655,7 @@ video{
 /*css actu*/
 
 .portfolio {
-  background: #111;
+
   border-radius: 9px;
   width: fit-content;
 }
