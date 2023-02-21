@@ -25,7 +25,7 @@ body {
 
 }
 section {
-    margin-top: 50px;
+
     padding: 0 10%;
 }
 
@@ -101,6 +101,7 @@ section {
     justify-content: center;
     flex-direction: column;
     position: relative;
+
 }
 #home h2 {
     font-size: 45px;
@@ -638,9 +639,8 @@ span {
 
 }
 
-@media (max-width:485px) {
 
-}
+
 
 
 img{
