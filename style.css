@@ -9,6 +9,11 @@
 a {
     text-decoration: 0;
 }
+
+p .a{
+  font-size: 20px;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -21,8 +26,7 @@ html {
     background-color: #ccc;
 }
 body {
-  background-image: linear-gradient(to bottom, #111111, #151515, #181818, #1b1b1b, #1e1e1e, #222222, #262626, #2a2a2a, #303030, #373737, #3d3d3d, #444444);
-}
+  background-image: radial-gradient(circle, #111111, #1b1b1b, #242424, #2d2d2d, #373737, #3b3b3b, #404040, #444444, #444444, #444444, #444444, #444444);}
 section {
 
     padding: 0 10%;
@@ -94,7 +98,7 @@ section {
     background: linear-gradient(rgba(0,0,0,0.1),#333), url("images/image_de_fond.png");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,7 +123,8 @@ section {
     color: #fff;
     margin-bottom: 10px;
     font-size: 20px;
-    text-align: center;
+
+
 }
 .home-btn {
     margin-bottom: 20px;
@@ -773,6 +778,12 @@ video{
  .portfolio a {
     font-size: 1.4rem;
   }
+
+  .grid__item {
+    max-width: 40%;
+  }
+
+
 }
 
 @media screen and (min-width:750px) {
@@ -856,6 +867,14 @@ video{
   }
 
   .grid__item {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
+
+@media screen and (min-width:749px) {
+
+   .grid__item {
+     max-width: 40%;
+   }
+
+ }
